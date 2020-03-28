@@ -35,7 +35,7 @@ def _parse_arguments():
 
     elif args.command == _COMMAND_DOWNLOAD:
         file_path = downloader.download_youtube_video(args.url)
-        if args.mp3:
+        if args.convert_to_mp3:
             downloader.convert_video_to_mp3(file_path)
 
     else:

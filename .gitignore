@@ -1,0 +1,5 @@
+﻿.vscode/settings.json
+*.mp3
+*.mp4
+*.pyc
+__pycache__/*
